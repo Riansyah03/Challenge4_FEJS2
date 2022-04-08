@@ -1,0 +1,433 @@
+body {
+  position: relative;
+  font-family: Helvetica, sans-serif;
+}
+
+nav, .hero {
+  background-color: #F1F3FF;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-right: 32px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #0D28A6;
+}
+
+.btn-register, .btn-get-started {
+  background-color: #5CB85F !important;
+  color: white !important;
+  padding: 8px 12px 8px 12px !important;
+}
+
+.btn-register:hover, .btn-get-started:hover {
+  background-color: #7ed681 !important;
+}
+
+.hero {
+  position: relative;
+  min-height: 430px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.hero p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.hero-img img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.form-search {
+  position: relative;
+  margin-bottom: 108px;
+}
+
+.form-search .box {
+  max-width: 1047px;
+  min-height: 106px;
+  border-radius: 8px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  margin-top: -50px;
+}
+
+.form-search .box .row-input {
+  padding: 24px 0 24px 24px;
+}
+
+.form-search .box .row-input .btn-cari {
+  background-color: #5CB85F !important;
+  color: white !important;
+  padding: 6px 12px !important;
+}
+
+.form-search .box .row-input .btn-cari:hover {
+  background-color: #7ed681 !important;
+}
+
+.form-search .box .row-input .input-group {
+  margin-top: 4px;
+  min-width: 170px;
+  min-height: 36px;
+}
+
+.page-search {
+  position: relative;
+  margin-bottom: 108px;
+}
+
+.page-search .head {
+  background-color: #F1F3FF;
+  min-height: 150px;
+}
+
+.page-search .box {
+  max-width: 1047px;
+  min-height: 106px;
+  border-radius: 8px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  margin-top: -70px;
+}
+
+.page-search .box p {
+  margin: 24px 0 -10px 24px;
+}
+
+.page-search .box .row-input {
+  padding: 24px 0 24px 24px;
+}
+
+.page-search .box .row-input .btn-edit {
+  background-color: #FFF !important;
+  color: #000 !important;
+  padding: 6px 12px !important;
+  border: 1px solid #0D28A6 !important;
+}
+
+.page-search .box .row-input .btn-edit:hover {
+  background-color: #2341c9 !important;
+  color: #FFF !important;
+}
+
+.page-search .box .row-input .input-group {
+  margin-top: 4px;
+  min-width: 170px;
+  min-height: 36px;
+}
+
+.page-search .card-mobil {
+  min-width: 1047px;
+}
+
+.page-search .card-mobil .card {
+  width: 330px;
+  height: 586px;
+  margin-top: 32px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page-search .card-mobil .card .card-body h5.card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.page-search .card-mobil .card .card-body h6 {
+  margin-bottom: 1rem;
+}
+
+.page-search .card-mobil .card .card-body .btn-group button img {
+  padding: 0 7px;
+}
+
+.page-search .card-mobil .card .card-body p.card-text img {
+  padding-right: 9.5px;
+}
+
+.page-search .card-mobil .card .btn-pilih {
+  width: 285px;
+  height: 48px;
+  background-color: #5cb85f;
+  color: white;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+.page-search .card-mobil .card .btn-pilih:hover {
+  background-color: #9adf9c;
+  color: white;
+}
+
+.detail-page {
+  position: relative;
+  margin-bottom: 108px;
+}
+
+.detail-page .head {
+  background-color: #F1F3FF;
+  min-height: 150px;
+}
+
+.detail-page .box {
+  max-width: 1047px;
+  min-height: 106px;
+  border-radius: 8px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  margin-top: -70px;
+}
+
+.detail-page .box p {
+  margin: 24px 0 -10px 24px;
+}
+
+.detail-page .box .row-input {
+  padding: 24px 0 24px 24px;
+}
+
+.detail-page .box .row-input .btn-edit {
+  background-color: #FFF !important;
+  color: #000 !important;
+  padding: 6px 12px !important;
+  border: 1px solid #0D28A6 !important;
+}
+
+.detail-page .box .row-input .btn-edit:hover {
+  background-color: #2341c9 !important;
+  color: #FFF !important;
+}
+
+.detail-page .box .row-input .input-group {
+  margin-top: 4px;
+  min-width: 230px;
+  min-height: 36px;
+}
+
+.detail-page .detail-section {
+  min-width: 1047px;
+}
+
+.detail-page .detail-section .card-detail {
+  min-width: 605px;
+  border-radius: 8px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.detail-page .detail-section .card-detail .card-title p {
+  margin: 24px 0 0 24px;
+}
+
+.detail-page .detail-section .card-detail .card-body p {
+  margin: 0 0 0 10px;
+}
+
+.detail-page .detail-section .card-detail .card-body ul li {
+  color: #8A8A8A;
+}
+
+.detail-page .detail-section .card-detail-mobil {
+  min-width: 405px;
+  border-radius: 8px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  margin-left: 32px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body {
+  padding: 24px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body .icon {
+  margin-bottom: 56px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body .icon p {
+  margin-right: 15px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body span {
+  margin-left: 200px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body .btn-lanjut {
+  width: 358px;
+  height: 48px;
+  background-color: #5cb85f;
+  color: white;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+.detail-page .detail-section .card-detail-mobil .card-body .btn-lanjut:hover {
+  background-color: #9adf9c;
+  color: white;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  margin: 100px auto;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer .address-list ul {
+  list-style: none;
+}
+
+.footer .address-list ul li {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer .nav-list ul {
+  list-style: none;
+}
+
+.footer .nav-list ul li {
+  margin-bottom: 16px;
+}
+
+.footer .nav-list ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.footer .nav-list ul li a:hover {
+  color: #0D28A6;
+}
+
+.footer .sosmed-list p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.footer .sosmed-list a {
+  margin-right: 16px;
+}
+
+.footer .copyright p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-img img {
+    width: 50%;
+  }
+  .footer .sosmed-list img {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item {
+    margin-right: 0;
+    text-align: center;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-img img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer .address-list {
+    margin-left: -32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer .address-list {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -25px;
+  }
+  .footer .nav-list {
+    text-align: center;
+    margin-left: -25px;
+    margin-bottom: 20px;
+  }
+  .footer .sosmed-list, .footer .copyright {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
